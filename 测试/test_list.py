@@ -1,8 +1,10 @@
 """
     1.  关于列表的测试
 """
+import numpy as np
 
 
+# 测试 append 和 空列表长度
 def testList():
     arr = [1, 2, 3, 4]
     arr1 = []
@@ -52,7 +54,13 @@ def testsorted():
     print(nums)     # [0, 1, 1]
 
 
+# 测试 npzero
+def testnpzero():
+    cal = np.zeros((1, 2))  # [[0. 0.]] 一维2列
+    print(cal)
+
+
 if __name__ == "__main__":
 
-    testsorted()    # 由小到大排序
+    testnpzero()
     pass

@@ -24,10 +24,22 @@ def testListSquare():
     for i in range(5, 0, -1):   # 左闭右开
         print(i)
 
+# 测试循环开闭区间（low，high），注意区分元组(a, b)和range(a, b)
+def testSquare():
+    for i in range(0, 1):       # 范围 左闭右开
+        print(i)
+    print()
+    for i in (0, 1):            # 打印元组，不是打印范围
+        print(i)
+    print()
+    for i in (0, 1, 3):         # 打印元组中各元素
+        print(i)
+
 
 if __name__ == "__main__":
     # testList()
     # testListandInt()
     # testFor()
     # testInitarr()
+    testSquare()
     pass

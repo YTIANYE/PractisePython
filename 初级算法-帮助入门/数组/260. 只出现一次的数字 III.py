@@ -85,7 +85,7 @@ class Solution:
         else:
             return self.fun_zheban(nums, 0, len(nums) - 1)
 
-    """哈希表方法：使用Counter"""
+    """哈希表方法：使用Counter快速创建哈希表"""
     def singleNumber2(self, nums: List[int]) -> List[int]:
         hashmap = Counter(nums)
         result = []
@@ -135,5 +135,5 @@ nums = [0,1,1,2]
 # nums = [0,0,1,2]
 # nums = [-1,1,1,2]
 print(sorted(nums)) # 28 33
-print(s.singleNumber(nums))
+print(s.singleNumber2(nums))
 
