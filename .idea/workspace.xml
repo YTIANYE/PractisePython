@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99e13773-dfd3-497b-8cbb-12f9c81c693f" name="默认变更列表" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/初级算法-帮助入门/数组/两个数组的交集 II.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/测试/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/测试/test_numpy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/测试/巧妙方法.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_for.py" beforeDir="false" afterPath="$PROJECT_DIR$/测试/test_for.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/测试/test_list.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/初级算法-帮助入门/数组/260. 只出现一次的数字 III.py" beforeDir="false" afterPath="$PROJECT_DIR$/初级算法-帮助入门/数组/260. 只出现一次的数字 III.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -236,7 +227,7 @@
       <workItem from="1619185055278" duration="780000" />
       <workItem from="1620113884162" duration="8268000" />
       <workItem from="1620137817805" duration="7363000" />
-      <workItem from="1620208276633" duration="6197000" />
+      <workItem from="1620208276633" duration="11631000" />
     </task>
     <servers />
   </component>
