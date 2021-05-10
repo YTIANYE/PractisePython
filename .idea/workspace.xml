@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99e13773-dfd3-497b-8cbb-12f9c81c693f" name="默认变更列表" comment="">
-      <change afterPath="$PROJECT_DIR$/初级算法-帮助入门/数组/旋转图像.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -364,7 +363,7 @@
       <workItem from="1620369107043" duration="1267000" />
       <workItem from="1620378739526" duration="92000" />
       <workItem from="1620550697518" duration="4755000" />
-      <workItem from="1620563057833" duration="12530000" />
+      <workItem from="1620563057833" duration="13162000" />
     </task>
     <servers />
   </component>
