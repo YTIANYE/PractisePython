@@ -21,8 +21,13 @@ class test:
         c2 = c[2:]
         print(c2)
 
+    def numtrans(self):
+
+        print(int((1 / 3) * 3 + 0 / 3))
+
 
 
 
 t = test()
-t.testColor()
+# t.testColor()
+t.numtrans()
