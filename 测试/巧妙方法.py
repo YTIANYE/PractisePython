@@ -7,7 +7,7 @@ class Solution:
 
     def singleNumber2(self, nums: List[int]) -> List[int]:
         hashmap = Counter(nums)
-        print(hashmap)      # Counter({1: 2, 0: 1, 2: 1})       # 默认出现次数多的，会放在前面
+        print(hashmap)      # Counter({1: 2, 0: 1, 2: 1})       # 默认出现次数多的，会放在前面    # 若传入字符串，则统计字符串中字母出现次数
         result = []
         for k in hashmap.keys():
             if hashmap[k] == 1:
