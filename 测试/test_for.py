@@ -35,11 +35,16 @@ def testSquare():
     for i in (0, 1, 3):         # 打印元组中各元素
         print(i)
 
+# 测试for循环两个list
+def testTwoList():
+    num1 = [1,2,3]
+    num2 = [4,5,6]
+    # 会报错，无法实现这样的循环
+    for (i, j) in (num1, num2):
+        print(i + j)
+
 
 if __name__ == "__main__":
-    # testList()
-    # testListandInt()
-    # testFor()
-    # testInitarr()
-    testSquare()
+
+    testTwoList()
     pass
