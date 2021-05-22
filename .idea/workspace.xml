@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99e13773-dfd3-497b-8cbb-12f9c81c693f" name="默认变更列表" comment="">
-      <change afterPath="$PROJECT_DIR$/初级算法-帮助入门/03字符串/有效的字母异位词.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/初级算法-帮助入门/03字符串/验证回文串.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/测试/test_for.py" beforeDir="false" afterPath="$PROJECT_DIR$/测试/test_for.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,29 +55,7 @@
       <recent name="D:\Projects\pythonProject\PractisePython\PyTorch练习" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.有效的字母异位词">
-    <configuration name="加一 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="小练习" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/初级算法-帮助入门/数组" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/初级算法-帮助入门/数组/加一.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.验证回文串">
     <configuration name="巧妙方法" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="小练习" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -112,6 +89,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/初级算法-帮助入门/03字符串/有效的字母异位词.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="验证回文串" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="小练习" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/初级算法-帮助入门/03字符串" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/初级算法-帮助入门/03字符串/验证回文串.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -432,11 +428,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.验证回文串" />
         <item itemvalue="Python.有效的字母异位词" />
         <item itemvalue="Python.test_for" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.巧妙方法" />
-        <item itemvalue="Python.加一 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -488,7 +484,7 @@
       <workItem from="1620563057833" duration="13717000" />
       <workItem from="1621254788361" duration="5903000" />
       <workItem from="1621497619575" duration="7845000" />
-      <workItem from="1621682273285" duration="1731000" />
+      <workItem from="1621682273285" duration="6594000" />
     </task>
     <servers />
   </component>
@@ -550,13 +546,18 @@
           <line>135</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/初级算法-帮助入门/03字符串/验证回文串.py</url>
+          <line>88</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PractisePython$test_PyTorch.coverage" NAME="test_PyTorch 覆盖结果" MODIFIED="1617892305540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PractisePython$260___III.coverage" NAME="260. 只出现一次的数字 III 覆盖结果" MODIFIED="1620138705711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/初级算法-帮助入门/数组" />
-    <SUITE FILE_PATH="coverage/PractisePython$.coverage" NAME="有效的数独 覆盖结果" MODIFIED="1620571520001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/初级算法-帮助入门/数组" />
+    <SUITE FILE_PATH="coverage/PractisePython$.coverage" NAME="验证回文串 覆盖结果" MODIFIED="1621687011534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/初级算法-帮助入门/03字符串" />
     <SUITE FILE_PATH="coverage/PractisePython$137___II.coverage" NAME="137. 只出现一次的数字 II 覆盖结果" MODIFIED="1617953338237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/初级算法-帮助入门/数组" />
     <SUITE FILE_PATH="coverage/PractisePython$test.coverage" NAME="test 覆盖结果" MODIFIED="1619081365712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PractisePython$_Offer_06__.coverage" NAME="剑指 Offer 06. 从尾到头打印链表 覆盖结果" MODIFIED="1616290015560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode_practice" />
