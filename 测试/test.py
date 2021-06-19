@@ -23,12 +23,12 @@ class test:
         print(c2)
 
     def numtrans(self):
-        print(1 / 3)                        # 0.3333333333333333
-        print(int(1 / 3))                   # 0
-        print(int(1 / 3) * 3)               # 0
-        print((1 / 3) * 3)                  # 1.0
-        print((1 / 3) * 3 + 0 / 3)          # 1.0
-        print(int((1 / 3) * 3 + 0 / 3))     # 1
+        print(1 / 3)  # 0.3333333333333333
+        print(int(1 / 3))  # 0
+        print(int(1 / 3) * 3)  # 0
+        print((1 / 3) * 3)  # 1.0
+        print((1 / 3) * 3 + 0 / 3)  # 1.0
+        print(int((1 / 3) * 3 + 0 / 3))  # 1
 
     # 测试 or     c == ('+' or '-')   c == '+' or c == '-'
     def testor(self):
@@ -41,9 +41,19 @@ class test:
         print(c == ('+' or '-'))
         print(c == '+' or c == '-')
 
+    # 测试 mid的两种不同求法的区别
+    def testmid(self):
+        low = 0
+        n = 10
+        for high in range(n):
+            # 偶数个数的时候前者往上取整，后者往下取整，奇数个数都是取中间的数
+            mid = (high - low + 1) // 2 + low
+            mid2 = (high + low) // 2
+            print("0 -- ", high, ":", mid, mid2)
 
 
 t = test()
+t.testmid()
 # t.testColor()
-t.testor()
+# t.testor()
 # t.numtrans()
