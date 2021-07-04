@@ -48,8 +48,9 @@ class test:
         for high in range(n):
             # 偶数个数的时候前者往上取整，后者往下取整，奇数个数都是取中间的数
             mid = (high - low + 1) // 2 + low
+            mid1 = (high - low) // 2 + low
             mid2 = (high + low) // 2
-            print("0 -- ", high, ":", mid, mid2)
+            print("0 -- ", high, ":", mid, mid1, mid2)      # mid1和mid2等同
 
 
 t = test()
