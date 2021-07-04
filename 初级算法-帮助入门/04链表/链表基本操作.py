@@ -96,35 +96,35 @@ class singleLinkList(object):
         return val in self.items()
 
 
-class TestList:
-    # Fun1: 初始化链表
-    singlelinklist = singleLinkList()
-    # Fun2: 判断链表是否为空
-    print(singlelinklist.isEmpty())
-    for i in range(5):
-        # Fun6: 尾部添加元素
-        singlelinklist.append(i)
-    # Fun4: 遍历链表
-    items = singlelinklist.items()
-    for i in items:
-        print(i, end=" ")
-    print(" ")
-    # Fun3: 链表长度
-    print(singlelinklist.lenght())
-    # Fun5: 头部添加元素
-    singlelinklist.add(9)
-    for i in singlelinklist.items():
-        print(i, end=" ")
-    print(" ")
-    # Fun7: 指定位置插入链表
-    singlelinklist.insert(2, 8)
-    for i in singlelinklist.items():
-        print(i, end=" ")
-    print(" ")
-    # Fun8: 删除值为value的结点
-    singlelinklist.remove(3)
-    for i in singlelinklist.items():
-        print(i, end=" ")
-    print(" ")
-    # Fun9: 判断某一个元素是否存在
-    print(singlelinklist.find(3))
+"""测试单链表操作"""
+# Fun1: 初始化链表
+singlelinklist = singleLinkList()
+# Fun2: 判断链表是否为空
+print(singlelinklist.isEmpty())
+for i in range(5):
+    # Fun6: 尾部添加元素
+    singlelinklist.append(i)
+# Fun4: 遍历链表
+items = singlelinklist.items()
+for i in items:
+    print(i, end=" ")
+print(" ")
+# Fun3: 链表长度
+print(singlelinklist.lenght())
+# Fun5: 头部添加元素
+singlelinklist.add(9)
+for i in singlelinklist.items():
+    print(i, end=" ")
+print(" ")
+# Fun7: 指定位置插入链表
+singlelinklist.insert(2, 8)
+for i in singlelinklist.items():
+    print(i, end=" ")
+print(" ")
+# Fun8: 删除值为value的结点
+singlelinklist.remove(3)
+for i in singlelinklist.items():
+    print(i, end=" ")
+print(" ")
+# Fun9: 判断某一个元素是否存在
+print(singlelinklist.find(3))

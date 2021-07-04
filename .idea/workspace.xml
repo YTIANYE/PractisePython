@@ -58,7 +58,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/leetcode_practice" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.statistic.project.settings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -589,7 +589,7 @@
       <workItem from="1625304852345" duration="1089000" />
       <workItem from="1625362681536" duration="5126000" />
       <workItem from="1625384850708" duration="323000" />
-      <workItem from="1625385827192" duration="1189000" />
+      <workItem from="1625385827192" duration="4360000" />
     </task>
     <servers />
   </component>

@@ -16,4 +16,21 @@
 """
 
 
+class ListNode:
+    def __init__(self, x):
+        self.val = x
+        self.next = None
+
+
+class Solution:
+
+    """
+    注意这题要求传入的是要删除的结点，
+    要用下一个结点的值覆盖该节点，
+    并将该节点的下一个结点删除
+    """
+    def deleteNode(self, node):
+        node.val = node.next.val
+        node.next = node.next.next
+
 
