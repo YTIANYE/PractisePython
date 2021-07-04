@@ -1,3 +1,4 @@
+from typing import List
 from xmlrpc.client import Boolean
 
 
@@ -95,36 +96,60 @@ class singleLinkList(object):
     def find(self, val):
         return val in self.items()
 
+    """Fun 10: 打印单链表"""
+
+    def printSingleLinkList(self):
+        for i in self.items():
+            print(i, end=" ")
+        print("\n")
+
+
+"""Fun11：将数组转化为单链表"""
+
+
+def arrayToLinkList(arr: List[int]):
+    singlelinklist = singleLinkList()
+    for i in arr:
+        singlelinklist.append(i)
+    return singlelinklist
+
 
 """测试单链表操作"""
 # Fun1: 初始化链表
 singlelinklist = singleLinkList()
+
 # Fun2: 判断链表是否为空
 print(singlelinklist.isEmpty())
 for i in range(5):
     # Fun6: 尾部添加元素
     singlelinklist.append(i)
+
 # Fun4: 遍历链表
 items = singlelinklist.items()
 for i in items:
     print(i, end=" ")
-print(" ")
+print("\n")
+
 # Fun3: 链表长度
 print(singlelinklist.lenght())
+
 # Fun5: 头部添加元素
 singlelinklist.add(9)
-for i in singlelinklist.items():
-    print(i, end=" ")
-print(" ")
+
+# Fun 10: 打印单链表
+singlelinklist.printSingleLinkList()
+
 # Fun7: 指定位置插入链表
 singlelinklist.insert(2, 8)
-for i in singlelinklist.items():
-    print(i, end=" ")
-print(" ")
+singlelinklist.printSingleLinkList()
+
 # Fun8: 删除值为value的结点
 singlelinklist.remove(3)
-for i in singlelinklist.items():
-    print(i, end=" ")
-print(" ")
+singlelinklist.printSingleLinkList()
+
 # Fun9: 判断某一个元素是否存在
 print(singlelinklist.find(3))
+
+# Fun11：将数组转化为单链表
+newlinklist = arrayToLinkList([9, 8, 7, 6, 5])
+newlinklist.printSingleLinkList()
