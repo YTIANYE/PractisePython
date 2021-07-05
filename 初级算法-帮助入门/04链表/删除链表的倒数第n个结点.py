@@ -16,13 +16,7 @@
 """
 
 # Definition for singly-linked list.
-from typing import List
-
-
-class ListNode:
-    def __init__(self, val=0, next=None):
-        self.val = val
-        self.next = next
+from LinkListPractise import *
 
 
 class Solution:
@@ -84,25 +78,6 @@ class Solution:
         pre = stack[-1]
         pre.next = pre.next.next
         return dummy.next
-
-
-# 打印链表
-def printLinkList(head: ListNode):
-    cur = head
-    while cur is not None:
-        print(cur.val, end=" ")
-        cur = cur.next
-    print("\n")
-
-
-# 由数组创建链表
-def arrToLinkList(arr: List[int]) -> ListNode:
-    head = ListNode(arr[0])
-    cur = head
-    for i in range(1, len(arr)):
-        cur.next = ListNode(arr[i])
-        cur = cur.next
-    return head
 
 
 s = Solution()

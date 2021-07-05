@@ -12,34 +12,8 @@
 
 进阶：链表可以选用迭代或递归方式完成反转。你能否用两种方法解决这道题？
 """
-from typing import List
 
-
-class ListNode:
-    def __init__(self, val):
-        self.val = val
-        self.next = None
-
-
-# 打印链表
-def printLinkList(head: ListNode):
-    cur = head
-    while cur is not None:
-        print(cur.val, end=" ")
-        cur = cur.next
-    print("\n")
-
-
-# 由数组创建链表
-def arrToLinkList(arr: List[int]) -> ListNode:
-    if not arr:
-        return None
-    head = ListNode(arr[0])
-    cur = head
-    for i in range(1, len(arr)):
-        cur.next = ListNode(arr[i])
-        cur = cur.next
-    return head
+from LinkListPractise import *
 
 
 class Solution:
