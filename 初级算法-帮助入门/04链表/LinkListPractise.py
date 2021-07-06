@@ -29,3 +29,12 @@ def arrToLinkList(arr: List[int]) -> ListNode:
         cur.next = ListNode(arr[i])
         cur = cur.next
     return head
+
+# 求链表长度
+def lenghtOfLinkList(head: ListNode) -> int:
+    cur = head
+    count = 0
+    while cur is not None:
+        count += 1
+        cur = cur.next
+    return count
