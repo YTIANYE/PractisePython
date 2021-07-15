@@ -6,7 +6,7 @@ Two binary trees are considered equal if they are
 structurally identical and the nodes have the same value.
 """
 
-# 判断两棵二叉树是否相同
+"""判断两棵二叉树是否相同"""
 def is_same_tree(p, q):
     if p is None and q is None:
         return True

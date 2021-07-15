@@ -14,7 +14,7 @@ longest path from the root node down to the farthest leaf node.
 
 from tree import TreeNode
 
-
+"""树的最大高度：层次遍历方式"""
 def max_height(root):
     if root is None:
         return 0
