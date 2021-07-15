@@ -1,4 +1,4 @@
-from algorithms.bfs import (
+from algorithms.algorithms.bfs import (
     count_islands,
     maze_search,
     shortest_distance_from_all_buildings,

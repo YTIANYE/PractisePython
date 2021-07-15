@@ -1,4 +1,4 @@
-from algorithms.unix import (
+from algorithms.algorithms.unix import (
     join_with_slash,
     full_path,
     split,

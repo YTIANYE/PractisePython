@@ -1,6 +1,6 @@
 import unittest
 
-from algorithms.queues import (
+from algorithms.algorithms.queues import (
     ArrayQueue, LinkedListQueue,
     max_sliding_window,
     reconstruct_queue,

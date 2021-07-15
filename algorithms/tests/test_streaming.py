@@ -1,7 +1,7 @@
-from algorithms.streaming.misra_gries import (
+from algorithms.algorithms.streaming.misra_gries import (
     misras_gries,
 )
-from algorithms.streaming import (
+from algorithms.algorithms.streaming import (
     one_sparse
 )
 import unittest

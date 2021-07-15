@@ -1,4 +1,4 @@
-from algorithms.dfs import (
+from algorithms.algorithms.dfs import (
     get_factors, get_factors_iterative1, get_factors_iterative2,
     num_islands,
     pacific_atlantic,

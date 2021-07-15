@@ -1,4 +1,4 @@
-from algorithms.tree.traversal import (
+from algorithms.algorithms.tree.traversal import (
     preorder,
     preorder_rec,
     postorder,
@@ -6,11 +6,11 @@ from algorithms.tree.traversal import (
     inorder,
     inorder_rec
 )
-from algorithms.tree.b_tree import BTree
+from algorithms.algorithms.tree.b_tree import BTree
 
-from algorithms.tree import construct_tree_postorder_preorder as ctpp
+from algorithms.algorithms.tree import construct_tree_postorder_preorder as ctpp
 
-from algorithms.tree.fenwick_tree.fenwick_tree import Fenwick_Tree
+from algorithms.algorithms.tree.fenwick_tree.fenwick_tree import Fenwick_Tree
 
 import unittest
 

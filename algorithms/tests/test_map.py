@@ -1,4 +1,4 @@
-from algorithms.map import (
+from algorithms.algorithms.map import (
     HashTable, ResizableHashTable,
     Node, SeparateChainingHashTable,
     word_pattern,

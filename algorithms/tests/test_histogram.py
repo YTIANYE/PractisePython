@@ -1,4 +1,4 @@
-from algorithms.distribution.histogram import get_histogram
+from algorithms.algorithms.distribution.histogram import get_histogram
 
 import unittest
 

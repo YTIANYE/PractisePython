@@ -1,6 +1,6 @@
-from algorithms.compression.huffman_coding import HuffmanCoding
-from algorithms.compression.rle_compression import (decode_rle, encode_rle)
-from algorithms.compression.elias import (elias_gamma, elias_delta)
+from algorithms.algorithms.compression.huffman_coding import HuffmanCoding
+from algorithms.algorithms.compression.rle_compression import (decode_rle, encode_rle)
+from algorithms.algorithms.compression.elias import (elias_gamma, elias_delta)
 
 import unittest
 

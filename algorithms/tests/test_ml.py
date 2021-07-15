@@ -1,4 +1,4 @@
-from algorithms.ml.nearest_neighbor import (
+from algorithms.algorithms.ml.nearest_neighbor import (
     distance,
     nearest_neighbor
 )

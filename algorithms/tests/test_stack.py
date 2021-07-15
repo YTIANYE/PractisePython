@@ -1,4 +1,4 @@
-from algorithms.stack import (
+from algorithms.algorithms.stack import (
     first_is_consecutive, second_is_consecutive,
     is_sorted,
     remove_min,

@@ -1,4 +1,4 @@
-from algorithms.set import (
+from algorithms.algorithms.set import (
     find_keyboard_row
 )
 

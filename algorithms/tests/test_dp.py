@@ -1,4 +1,4 @@
-from algorithms.dp import (
+from algorithms.algorithms.dp import (
     max_profit_naive, max_profit_optimized,
     climb_stairs, climb_stairs_optimized,
     count,

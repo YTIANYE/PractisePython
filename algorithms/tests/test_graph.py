@@ -1,16 +1,16 @@
-from algorithms.graph import Tarjan
-from algorithms.graph import check_bipartite
-from algorithms.graph.dijkstra import Dijkstra
-from algorithms.graph import ford_fulkerson
-from algorithms.graph import edmonds_karp
-from algorithms.graph import dinic
-from algorithms.graph import maximum_flow_bfs
-from algorithms.graph import maximum_flow_dfs
-from algorithms.graph import all_pairs_shortest_path
-from algorithms.graph import bellman_ford
-from algorithms.graph import bellman_ford
-from algorithms.graph import count_connected_number_of_component
-from algorithms.graph import prims_minimum_spanning
+from algorithms.algorithms.graph import Tarjan
+from algorithms.algorithms.graph import check_bipartite
+from algorithms.algorithms.graph.dijkstra import Dijkstra
+from algorithms.algorithms.graph import ford_fulkerson
+from algorithms.algorithms.graph import edmonds_karp
+from algorithms.algorithms.graph import dinic
+from algorithms.algorithms.graph import maximum_flow_bfs
+from algorithms.algorithms.graph import maximum_flow_dfs
+from algorithms.algorithms.graph import all_pairs_shortest_path
+from algorithms.algorithms.graph import bellman_ford
+from algorithms.algorithms.graph import bellman_ford
+from algorithms.algorithms.graph import count_connected_number_of_component
+from algorithms.algorithms.graph import prims_minimum_spanning
 
 import unittest
 

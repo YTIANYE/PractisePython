@@ -1,4 +1,4 @@
-from algorithms.matrix import (
+from algorithms.algorithms.matrix import (
     bomb_enemy,
     copy_transform,
     crout_matrix_decomposition,

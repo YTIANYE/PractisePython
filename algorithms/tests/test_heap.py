@@ -1,4 +1,4 @@
-from algorithms.heap import (
+from algorithms.algorithms.heap import (
     BinaryHeap,
     get_skyline,
     max_sliding_window,
