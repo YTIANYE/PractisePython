@@ -144,10 +144,11 @@ def tree_level_complete_binary_tree(root):
 
 
 def tree_depth(root) -> int:
-    if root is None:
-        return 0
-    else:
-        return max(tree_depth(root.left), tree_depth(root.right)) + 1
+    # if root is None:
+    #     return 0
+    # else:
+    #     return max(tree_depth(root.left), tree_depth(root.right)) + 1
+    return 0 if root is None else max(tree_depth(root.left), tree_depth(root.right)) + 1
 
 
 """FUN4 打印一棵二叉树图形"""
