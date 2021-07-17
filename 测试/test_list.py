@@ -30,6 +30,12 @@ def testInitarr():
     print(arr)
     arr2 = [1] * 8  # [1, 1, 1, 1, 1, 1, 1, 1]
     print(arr2)
+    arr3 = [[0] * 3] * 3
+    print(arr3)     # [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
+    arr4 = [[]] * 3
+    print(arr4)     # [[], [], []]
+    arr4[0].append(1)
+    print(arr4)     # [[1], [1], [1]]
 
 
 # 测试 连续的list赋值 与 连续的变量赋值
@@ -62,5 +68,5 @@ def testnpzero():
 
 if __name__ == "__main__":
 
-    testnpzero()
+    testInitarr()
     pass

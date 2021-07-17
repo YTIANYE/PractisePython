@@ -1,6 +1,6 @@
 """
 用于为LeetCode函数测试
-提供基本数据结构和基本操作
+提供链表的基本数据结构和基本操作
 """
 from typing import List
 
