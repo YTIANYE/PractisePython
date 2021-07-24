@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99e13773-dfd3-497b-8cbb-12f9c81c693f" name="默认变更列表" comment="">
-      <change afterPath="$PROJECT_DIR$/初级算法-帮助入门/05树/二叉树的层序遍历.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/初级算法-帮助入门/05树/AVL.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/初级算法-帮助入门/05树/将有序数组转换为二叉搜索树.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/初级算法-帮助入门/05树/testTree.py" beforeDir="false" afterPath="$PROJECT_DIR$/初级算法-帮助入门/05树/testTree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/初级算法-帮助入门/05树/tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/初级算法-帮助入门/05树/tree.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +77,7 @@
       <recent name="D:\Projects\pythonProject\PractisePython\runoob_practice" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.二叉树的层序遍历">
+  <component name="RunManager" selected="Python.testTree">
     <configuration name="二叉树最大深度" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="小练习" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -484,9 +487,6 @@
       <module name="小练习" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/初级算法-帮助入门/05树" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -526,9 +526,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.testTree" />
         <item itemvalue="Python.二叉树的层序遍历" />
         <item itemvalue="Python.二叉树最大深度" />
-        <item itemvalue="Python.testTree" />
         <item itemvalue="Python.tree" />
       </list>
     </recent_temporary>
@@ -623,7 +623,7 @@
       <workItem from="1626573348073" duration="5549000" />
       <workItem from="1626590755890" duration="609000" />
       <workItem from="1627012233953" duration="7823000" />
-      <workItem from="1627089121479" duration="820000" />
+      <workItem from="1627089121479" duration="4617000" />
     </task>
     <servers />
   </component>

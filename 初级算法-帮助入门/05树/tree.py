@@ -174,3 +174,27 @@ def tree_print_graph(root):
     # print("###################################################################")
     for s in graph:
         print(s)
+
+
+"""FUN5 添加结点: 层序遍历，保持二叉树一直是完全二叉树"""
+
+
+def tree_add(root, val):
+    if root is None:
+        return TreeNode(val)
+    queue = [root]
+    while queue:
+        node = queue.pop(0)
+        if node.left is None:
+            new = TreeNode(val)
+            node.left = new
+            return
+        else:
+            queue.append(node.left)
+        if node.right is None:
+            new = TreeNode(val)
+            node.right = new
+            return
+        else:
+            queue.append(node.right)
+
