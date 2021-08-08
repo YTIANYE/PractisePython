@@ -63,7 +63,7 @@ class Solution:
             second = third
         return third
 
-    # 我实现的 官方题解
+    # 我实现的 官方题解 迭代
     """
     执行用时：28 ms, 在所有 Python3 提交中击败了92.11%的用户
     内存消耗：14.9 MB, 在所有 Python3 提交中击败了52.11%的用户
