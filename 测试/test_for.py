@@ -22,7 +22,7 @@ def testFor():
 def testListSquare():
     # 反向循环的时候，注意第一个第二个参数与正向循环位置不同
     for i in range(5, 0, -1):   # 左闭右开
-        print(i)
+        print(i)        # 5 4 3 2 1
 
 # 测试循环开闭区间（low，high），注意区分元组(a, b)和range(a, b)
 def testSquare():
@@ -46,5 +46,5 @@ def testTwoList():
 
 if __name__ == "__main__":
 
-    testTwoList()
+    testListSquare()
     pass
