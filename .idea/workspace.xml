@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="99e13773-dfd3-497b-8cbb-12f9c81c693f" name="默认变更列表" comment="">
+      <change afterPath="$PROJECT_DIR$/初级算法-帮助入门/08 设计问题/最小栈.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/初级算法-帮助入门/08 设计问题/打乱数组.py" beforeDir="false" afterPath="$PROJECT_DIR$/初级算法-帮助入门/08 设计问题/打乱数组.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/测试/test_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/测试/test_list.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +78,7 @@
       <recent name="D:\Projects\pythonProject\PractisePython" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.打乱数组">
+  <component name="RunManager" selected="Python.最小栈">
     <configuration name="打乱数组" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="小练习" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -118,20 +120,17 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="70 爬楼梯" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="最小栈" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="小练习" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/初级算法-帮助入门/07动态规划" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/初级算法-帮助入门/08 设计问题" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\Projects\pythonProject\PractisePython\初级算法-帮助入门\07动态规划\70 爬楼梯.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/初级算法-帮助入门/08 设计问题/最小栈.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -604,11 +603,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.最小栈" />
         <item itemvalue="Python.打乱数组" />
         <item itemvalue="Python.test_list" />
         <item itemvalue="Python.198 打家劫舍" />
         <item itemvalue="Python.test_for" />
-        <item itemvalue="Python.70 爬楼梯" />
       </list>
     </recent_temporary>
   </component>
@@ -717,7 +716,7 @@
       <workItem from="1628414045151" duration="294000" />
       <workItem from="1628428959313" duration="24121000" />
       <workItem from="1628671125873" duration="11846000" />
-      <workItem from="1628819869368" duration="6732000" />
+      <workItem from="1628819869368" duration="9326000" />
     </task>
     <servers />
   </component>
