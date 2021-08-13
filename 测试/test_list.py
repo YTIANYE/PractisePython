@@ -66,7 +66,21 @@ def testnpzero():
     print(cal)
 
 
+# 测试复制数组
+def testcopy():
+    nums = [1, 2, 3]
+    nums1 = list(nums)              # 复制nums的内容生成一个新的list
+    nums2 = [num for num in nums]   # 复制nums的内容生成一个新的list
+    nums3 = nums                    # nums3和nums 是同一引用
+    print(nums, nums1, nums2, nums3)
+    nums1.pop()
+    nums2.pop()
+    print(nums)
+    nums3.pop()
+    print(nums)
+
+
 if __name__ == "__main__":
 
-    testInitarr()
+    testcopy()
     pass
