@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99e13773-dfd3-497b-8cbb-12f9c81c693f" name="默认变更列表" comment="">
-      <change afterPath="$PROJECT_DIR$/初级算法-帮助入门/09 数学/Fizz Buzz.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/初级算法-帮助入门/09 数学/计数质数.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +78,7 @@
       <recent name="D:\Projects\pythonProject\PractisePython" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.412 Fizz Buzz">
+  <component name="RunManager" selected="Python.计数质数">
     <configuration name="打乱数组" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="小练习" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -115,6 +115,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="D:\Projects\pythonProject\PractisePython\初级算法-帮助入门\07动态规划\198 打家劫舍.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="计数质数" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="小练习" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/初级算法-帮助入门/09 数学" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/初级算法-帮助入门/09 数学/计数质数.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -582,28 +601,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_for" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="小练习" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/测试" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/测试/test_for.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="test_list" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="小练习" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -628,11 +625,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.计数质数" />
         <item itemvalue="Python.412 Fizz Buzz" />
         <item itemvalue="Python.打乱数组" />
         <item itemvalue="Python.test_list" />
         <item itemvalue="Python.198 打家劫舍" />
-        <item itemvalue="Python.test_for" />
       </list>
     </recent_temporary>
   </component>
@@ -742,7 +739,7 @@
       <workItem from="1628428959313" duration="24121000" />
       <workItem from="1628671125873" duration="11846000" />
       <workItem from="1628819869368" duration="9915000" />
-      <workItem from="1629103282858" duration="710000" />
+      <workItem from="1629103282858" duration="12210000" />
     </task>
     <servers />
   </component>
@@ -830,7 +827,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PractisePython$260___III.coverage" NAME="260. 只出现一次的数字 III 覆盖结果" MODIFIED="1620138705711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/初级算法-帮助入门/数组" />
     <SUITE FILE_PATH="coverage/PractisePython$278___1_.coverage" NAME="278 第一个错误的版本 (1) 覆盖结果" MODIFIED="1628153848006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/初级算法-帮助入门/06排序和搜索" />
-    <SUITE FILE_PATH="coverage/PractisePython$.coverage" NAME="打家劫舍 覆盖结果" MODIFIED="1628690469227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/初级算法-帮助入门/07动态规划" />
+    <SUITE FILE_PATH="coverage/PractisePython$.coverage" NAME="计数质数 覆盖结果" MODIFIED="1629124018319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/初级算法-帮助入门/09 数学" />
     <SUITE FILE_PATH="coverage/PractisePython$_Offer_06__.coverage" NAME="剑指 Offer 06. 从尾到头打印链表 覆盖结果" MODIFIED="1616290015560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode_practice" />
     <SUITE FILE_PATH="coverage/PractisePython$test_tree_TestFenwickTree_test_construct_tree_with_update_2__Unittest.coverage" NAME="test_tree.TestFenwickTree.test_construct_tree_with_update_2 的 Unittest 覆盖结果" MODIFIED="1626267911766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithms-master/tests" />
     <SUITE FILE_PATH="coverage/PractisePython$136__.coverage" NAME="136. 只出现一次的数字 覆盖结果" MODIFIED="1617886747249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/初级算法-帮助入门/数组" />
