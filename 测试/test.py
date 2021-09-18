@@ -4,13 +4,13 @@ import random
 
 class test:
 
-    # Python 三元运算符的替代实现
+    """Python 三元运算符的替代实现"""
     def test3operator(self):
         a, b = 5, 2
         maxnum = a if a > b else b
         print(maxnum)
 
-    # 测试随机合成color [2: ] 三位中截取最后一个数字
+    """测试随机合成color [2: ] 三位中截取最后一个数字"""
     def testColor(self):
         color11 = str("%03d" % random.randint(0, 255))
         color1 = color11[2:]
@@ -30,7 +30,7 @@ class test:
         print((1 / 3) * 3 + 0 / 3)  # 1.0
         print(int((1 / 3) * 3 + 0 / 3))  # 1
 
-    # 测试 or     c == ('+' or '-')   c == '+' or c == '-'
+    """测试 or     c == ('+' or '-')   c == '+' or c == '-'"""
     def testor(self):
         print('+' or '-')  # +
         print('-' or '+')  # -
@@ -41,7 +41,7 @@ class test:
         print(c == ('+' or '-'))
         print(c == '+' or c == '-')
 
-    # 测试 mid的两种不同求法的区别
+    """测试 mid的两种不同求法的区别"""
     def testmid(self):
         low = 0
         n = 10
@@ -52,9 +52,37 @@ class test:
             mid2 = (high + low) // 2
             print("0 -- ", high, ":", mid, mid1, mid2)      # mid1和mid2等同
 
+    """测试 不定长参数"""
+    def test_Indefinite_length_parameter(self):
+        """含有不定长参数的函数"""
+        # 方式一： 元组
+        def test_parameter(*para):
+            p = para[0] if para else None
+            if p:       # 是None的时候不会打印
+                print(p)
+            # for p in para:
+            #     print(p)
 
-t = test()
-t.testmid()
-# t.testColor()
-# t.testor()
-# t.numtrans()
+        test_parameter()    # 不传入也没有关系，即空元组也没有关系
+        test_parameter(1)
+        # para = (0,)
+        # test_parameter(para)
+        # para2 = (1, 0)
+        # test_parameter(para2)
+
+        # 方式二：字典
+        def test_parameter2(**para):
+            print(para)
+        # test_parameter2(a=2)
+
+
+
+if __name__ == "__main__":
+    t = test()
+    # 测试不定长参数
+    t.test_Indefinite_length_parameter()
+    # 测试 mid的两种不同求法的区别
+    # t.testmid()
+    # t.testColor()
+    # t.testor()
+    # t.numtrans()
