@@ -41,7 +41,7 @@ class Solution:
     """
 
     def hammingWeight1(self, n: int) -> int:
-        string = bin(n)
+        string = bin(n)     # 十进制转化成二进制
         sum = 0
         for s in string:
             if s == "1":
