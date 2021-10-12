@@ -10,6 +10,7 @@ class ListNode(object):
 
 class Solution:
 
+    # 我的题解
     def reversePrint(self, head: ListNode) -> List[int]:
         """
         :type head: ListNode
