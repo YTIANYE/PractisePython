@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99e13773-dfd3-497b-8cbb-12f9c81c693f" name="默认变更列表" comment="">
-      <change afterPath="$PROJECT_DIR$/剑指 Offer_practice/剑指 Offer 58 - II. 左旋转字符串.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/剑指 Offer_practice/剑指 Offer 03. 数组中重复的数字.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,21 +79,18 @@
       <recent name="D:\Projects\pythonProject\PractisePython" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.剑指 Offer 58 - II. 左旋转字符串">
-    <configuration name="剑指 Offer 24. 反转链表" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.剑指 Offer 03. 数组中重复的数字">
+    <configuration name="剑指 Offer 03. 数组中重复的数字" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="小练习" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/剑指 Offer_practice" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/剑指 Offer_practice/剑指 Offer 24. 反转链表.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/剑指 Offer_practice/剑指 Offer 03. 数组中重复的数字.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -525,11 +522,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.剑指 Offer 03. 数组中重复的数字" />
         <item itemvalue="Python.剑指 Offer 58 - II. 左旋转字符串" />
         <item itemvalue="Python.剑指 Offer 35. 复杂链表的复制" />
         <item itemvalue="Python.dict" />
         <item itemvalue="Python.arr" />
-        <item itemvalue="Python.剑指 Offer 24. 反转链表" />
       </list>
     </recent_temporary>
   </component>
@@ -654,7 +651,7 @@
       <workItem from="1633780940286" duration="14271000" />
       <workItem from="1634031260530" duration="11000" />
       <workItem from="1634046331402" duration="10653000" />
-      <workItem from="1634189029373" duration="24366000" />
+      <workItem from="1634189029373" duration="25518000" />
     </task>
     <servers />
   </component>
