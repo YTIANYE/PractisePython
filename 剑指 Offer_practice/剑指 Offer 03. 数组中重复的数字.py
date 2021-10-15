@@ -12,7 +12,7 @@ class Solution:
 
     # 我的题解
     def findRepeatNumber(self, nums: List[int]) -> int:
-        num_set = set()
+        num_set = set()     # 注意空集合处理方式
         for num in nums:
             if num not in num_set:
                 num_set.add(num)
