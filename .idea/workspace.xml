@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99e13773-dfd3-497b-8cbb-12f9c81c693f" name="默认变更列表" comment="">
-      <change afterPath="$PROJECT_DIR$/剑指 Offer_practice/剑指 Offer 53 - II. 0～n-1中缺失的数字.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/剑指 Offer_practice/剑指 Offer 53 - II. 0～n-1中缺失的数字.py" beforeDir="false" afterPath="$PROJECT_DIR$/剑指 Offer_practice/剑指 Offer 53 - II. 0～n-1中缺失的数字.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -627,7 +627,7 @@
       <workItem from="1634046331402" duration="10653000" />
       <workItem from="1634189029373" duration="28574000" />
       <workItem from="1634544385905" duration="2477000" />
-      <workItem from="1636113737628" duration="1046000" />
+      <workItem from="1636113737628" duration="5270000" />
     </task>
     <servers />
   </component>
