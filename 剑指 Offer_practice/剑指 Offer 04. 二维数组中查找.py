@@ -59,7 +59,6 @@ class Solution(object):
                 i += 1
             else:
                 return True
-
         return False
 
 
