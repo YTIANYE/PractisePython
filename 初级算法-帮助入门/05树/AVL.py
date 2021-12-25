@@ -41,20 +41,20 @@ class AvlTree(object):
         self.avl_balance(False)
 
         while self.balance < -1 or self.balance > 1:
-            if self.balance < -1:                       # R
-                if self.node.right.balance > 0:         # 如果是RL
+            if self.balance < -1:  # R
+                if self.node.right.balance > 0:  # 如果是RL
                     self.node.right.avl_rotate_right()  # 对RL需要先转化成RR
                     self.avl_heights()
                     self.avl_balance()
-                self.avl_rotate_left()                  # RR
+                self.avl_rotate_left()  # RR
                 self.avl_heights()
                 self.avl_balance()
-            if self.balance > 1:                        # L
-                if self.node.left.balance < 0:          # 如果是LR
-                    self.node.left.avl_rotate_left()    # 对LR需要先转换成LL
+            if self.balance > 1:  # L
+                if self.node.left.balance < 0:  # 如果是LR
+                    self.node.left.avl_rotate_left()  # 对LR需要先转换成LL
                     self.avl_heights()
                     self.avl_balance()
-                self.avl_rotate_right()                 # LL
+                self.avl_rotate_right()  # LL
                 self.avl_heights()
                 self.avl_balance()
 
@@ -137,8 +137,22 @@ class AvlTree(object):
             root.right = self.node.right.acl2Btree()
         return root
 
+    """FUN12 删除平衡二叉树中的节点"""
 
-arr = [1, 2, 3, 4, 5, 6]
+    def avl_delete(self, val, father=None ):
+        if self.node is None:
+            return
+        if self.node.val > val:
+            self.node.left.avl_delete(val, self.node)
+        elif self.node.val < val:
+            self.node.right.avl_delete(val, self.node)
+        else:
+            pass
+
+
+
+# arr = [1, 2, 3, 4, 5, 6]
+arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 # arr = [3, 4, 2, 1, 6, 5]
 # arr = [-10, -3, 0, 5, 9]
 """FUN0 初始化"""
@@ -182,9 +196,6 @@ avl.avl_print_graph()
 #             root.right = TreeNode(i)
 #         else:
 #             avl_add(root.right, i)
-#
-#
-#
 #
 #
 # # arr = [1, 2, 3, 4, 5, 6]
