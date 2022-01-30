@@ -33,6 +33,8 @@ double findMedian() - 返回目前所有元素的中位数。
 
 
 # 我实现的官方题解：堆排序
+from heapq import heappush, heappop
+
 """
 执行用时：168 ms, 在所有 Python3 提交中击败了67.44%的用户内存消耗：26 MB, 在所有 Python3 提交中击败了5.04%的用户
 """
