@@ -82,31 +82,32 @@ def tree_level(root):
             queue.append(node.right)
     return tree
 
+# 存在错误 # arr = [0, 1, 2, null, 4, 5, 6, null, null, 9] 9位置错误
 
-"""FUN2.2 层次遍历一棵树，以数组的形式返回遍历结果， 包含空结点"""
-
-
-def tree_level2(root):
-    tree = []
-    if root is None:
-        tree.append("null")
-        return
-    queue = [root]
-    while queue:
-        node = queue.pop(0)
-        if node.val == -1:
-            tree.append("null")
-            continue
-        tree.append(node.val)
-        if node.left:
-            queue.append(node.left)
-        else:
-            queue.append(TreeNode(-1))
-        if node.right:
-            queue.append(node.right)
-        else:
-            queue.append(TreeNode(-1))
-    return tree
+# """FUN2.2 层次遍历一棵树，以数组的形式返回遍历结果， 包含空结点"""
+#
+#
+# def tree_level2(root):
+#     tree = []
+#     if root is None:
+#         tree.append("null")
+#         return
+#     queue = [root]
+#     while queue:
+#         node = queue.pop(0)
+#         if node.val == -1:
+#             tree.append("null")
+#             continue
+#         tree.append(node.val)
+#         if node.left:
+#             queue.append(node.left)
+#         else:
+#             queue.append(TreeNode(-1))
+#         if node.right:
+#             queue.append(node.right)
+#         else:
+#             queue.append(TreeNode(-1))
+#     return tree
 
 
 """FUN2.3 层次遍历一棵树，以数组的形式返回遍历结果(与原树高度相同的完全二叉树，空结点-1补全), 用于绘制图形"""
