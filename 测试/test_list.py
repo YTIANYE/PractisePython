@@ -79,6 +79,14 @@ def testcopy():
     nums3.pop()
     print(nums)
 
+# 测试pop()函数
+def testpop():
+    nums = [1, 2, 3]
+    print(nums.pop())   # 3
+    print(nums)         # [1, 2]
+    print(nums.pop(0)) # 1
+    
+
 
 if __name__ == "__main__":
 

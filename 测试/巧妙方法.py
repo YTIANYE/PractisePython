@@ -108,6 +108,50 @@ class Solution:
             return ret
         print(spread([1, 2, 3, [4, 5, 6], [7], 8, 9]))  # [1,2,3,4,5,6,7,8,9]
 
+    """进制转换"""
+    # 二进制字符串转十进制数字
+    def binaryFun(self):
+        s = "1010"
+        num = int(s, 2)
+        print(num)  # 10
+
+    # 十进制数字转二进制字符串
+    def decimalFun(self):
+        num = 10
+        s = bin(num)[2:]  # 去掉前缀 '0b'
+        print(s)  # "1010"
+
+    """大根堆的使用"""
+    def heapFun(self):
+        import heapq
+        nums = [1, 3, 5, 7, 9]
+        q = [(-nums[i], i) for i in range(k)]
+        heapq.heapify(q)
+        print(q)  # [(-5, 2), (-3, 1), (-1, 0)]   # 注意是小根堆，所以取负数来模拟大根堆
+        print(-q[0][0])  # 5
+        heapq.heappush(q, (-nums[3], 3))
+        print(q)  # [(-7, 3), (-3, 1), (-1, 0), (-5, 2)]
+        while q[0][1] <= 0:  # 假设我们要弹出索引小于等于0的元素
+            heapq.heappop(q)
+        print(q) # [(-7, 3), (-5, 2), (-3, 1)]   # 注意弹出后剩下的元素
+        print(-q[0][0])  # 7    
+
+    """队列"""
+    def queueFun(self):
+        from collections import deque
+        q = deque()
+        q.append(1)
+        q.append(2)
+        q.append(3)
+        print(q)  # deque([1, 2, 3])
+        print(q[0])  # 1
+        q.popleft()
+        print(q)  # deque([2, 3])
+        q.pop()
+        print(q)  # deque([2])
 
 s = Solution()
-s.spreadFun()
+s.binaryFun()
+s.decimalFun()
+
+ min_len = float('inf')  # 记录最小窗口长度，初始为无穷大
