@@ -90,6 +90,23 @@ class Solution_1:
         return n  
 
 
-
+# 我的题解
+class Solution:
+    def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
+        self.res = None 
+        def dfs(root):
+            flag = False 
+            if root is None:
+                return flag
+            if root == p or root == q :
+                flag = True
+            left = dfs(root.left)
+            right = dfs(root.right)
+            if (flag and left) or (flag and right) or (left and right) :
+                self.res = root 
+            return flag or left or right    # 注意返回条件 or
+        
+        dfs(root)
+        return self.res 
 
         
