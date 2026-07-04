@@ -86,6 +86,11 @@ def testpop():
     print(nums)         # [1, 2]
     print(nums.pop(0)) # 1
     
+# 数组转字符串
+def testjoin():
+    nums = [1, 2, 3]
+    print("".join(str(num) for num in nums)) # 123
+    print(",".join(str(num) for num in nums)) # 1,2,3
 
 
 if __name__ == "__main__":
