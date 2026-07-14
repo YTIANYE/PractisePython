@@ -154,4 +154,8 @@ s = Solution()
 s.binaryFun()
 s.decimalFun()
 
- min_len = float('inf')  # 记录最小窗口长度，初始为无穷大
+min_len = float('inf')  # 记录最小窗口长度，初始为无穷大
+# 无穷大表示
+print(math.inf)  # 输出: inf
+
+
