@@ -54,15 +54,15 @@ class Solution:
 
         
 
-# 官方题解
+# 我实现的官方题解
 class Solution:
-    def findMin(self, nums: List[int]) -> int:    
-        low, high = 0, len(nums) - 1
-        while low < high:
-            pivot = low + (high - low) // 2
-            if nums[pivot] < nums[high]:
-                high = pivot 
+    def findMin(self, nums: List[int]) -> int:
+        left, right = 0, len(nums) - 1
+        while left < right:
+            mid = left + (right - left) // 2 
+            if nums[mid] < nums[right]:
+                right = mid 
             else:
-                low = pivot + 1
-        return nums[low]
+                left = mid + 1
+        return nums[left]
 
