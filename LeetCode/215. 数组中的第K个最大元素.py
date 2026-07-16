@@ -82,7 +82,7 @@ class Solution:
 
     def maxHeapify(self, nums, i, heapSize):
         l, r, largest = i * 2 + 1, i * 2 + 2, i
-        if l < heapSize and nums[l] > nums[largest]:    # 注意比较条件
+        if l < heapSize and nums[l] > nums[largest]:    # 注意比较条件,这里比较nums[largest]，而不是nums[i]
             largest = l
         if r < heapSize and nums[r] > nums[largest]:
             largest = r
