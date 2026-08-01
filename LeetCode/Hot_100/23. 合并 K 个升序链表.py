@@ -37,7 +37,80 @@ lists[i] 按 升序 排列
 lists[i].length 的总和不超过 10^4
 """
 
-# 我的题解
+# 官方题解： 堆排序
+import heapq
+class Solution:
+    def mergeKLists(self, lists: List[Optional[ListNode]]) -> Optional[ListNode]:
+
+        heap = []
+        idx = 0  # 唯一标识，避免节点相等时比较ListNode
+        for node in lists:
+            if node:
+                heapq.heappush(heap, (node.val, idx, node))
+                idx += 1
+        
+        dummy = ListNode()
+        tail = dummy
+        while heap:
+            val, _, ptr = heapq.heappop(heap)
+            tail.next = ptr
+            tail = tail.next
+            if ptr.next:
+                heapq.heappush(heap, (ptr.next.val, idx, ptr.next))
+                idx += 1
+        return dummy.next
+
+# 官方题解： 分治递归
+from typing import List
+
+# 链表节点定义
+class ListNode:
+    def __init__(self, val=0, next=None):
+        self.val = val
+        self.next = next
+
+class Solution:
+    # 合并两个有序链表，对应C++ mergeTwoLists
+    def mergeTwoLists(self, a: ListNode, b: ListNode) -> ListNode:
+        if not a or not b:
+            return a if a else b
+        # 虚拟头节点，对应C++局部栈变量head
+        head = ListNode()
+        tail = head
+        a_ptr, b_ptr = a, b
+        
+        while a_ptr and b_ptr:
+            if a_ptr.val < b_ptr.val:
+                tail.next = a_ptr
+                a_ptr = a_ptr.next
+            else:
+                tail.next = b_ptr
+                b_ptr = b_ptr.next
+            tail = tail.next
+        # 拼接剩余链表
+        tail.next = a_ptr if a_ptr else b_ptr
+        return head.next
+
+    # 分治递归：合并 [l, r] 区间内所有链表
+    def merge(self, lists: List[ListNode], l: int, r: int) -> ListNode:
+        if l == r:
+            return lists[l]
+        if l > r:
+            return None
+        # 等价 (l + r) // 2，C++ (l+r)>>1 整数右移除2
+        mid = (l + r) // 2
+        left = self.merge(lists, l, mid)
+        right = self.merge(lists, mid + 1, r)
+        return self.mergeTwoLists(left, right)
+
+    # 主函数入口
+    def mergeKLists(self, lists: List[ListNode]) -> ListNode:
+        if not lists:
+            return None
+        return self.merge(lists, 0, len(lists) - 1)
+
+
+# 我的题解  分治递归
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, val=0, next=None):
@@ -76,26 +149,3 @@ class Solution:
             return lists[0]
         mid = l // 2
         return mergeList(self.mergeKLists(lists[:mid]), self.mergeKLists(lists[mid:]))  # 注意最后返回合并的过程
-
-# 官方题解
-import heapq
-class Solution:
-    def mergeKLists(self, lists: List[Optional[ListNode]]) -> Optional[ListNode]:
-
-        heap = []
-        idx = 0  # 唯一标识，避免节点相等时比较ListNode
-        for node in lists:
-            if node:
-                heapq.heappush(heap, (node.val, idx, node))
-                idx += 1
-        
-        dummy = ListNode()
-        tail = dummy
-        while heap:
-            val, _, ptr = heapq.heappop(heap)
-            tail.next = ptr
-            tail = tail.next
-            if ptr.next:
-                heapq.heappush(heap, (ptr.next.val, idx, ptr.next))
-                idx += 1
-        return dummy.next
