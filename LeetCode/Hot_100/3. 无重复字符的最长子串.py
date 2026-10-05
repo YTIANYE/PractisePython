@@ -27,6 +27,7 @@
 s 由英文字母、数字、符号和空格组成
 """
 
+# 我的题解 —— 双指针
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         n = len(s)
@@ -46,7 +47,8 @@ class Solution:
             res = max(res, q - p) # 注意右指针移动后计算长度
             
         return res 
-                    
+ 
+# 官方题解 滑动窗口
 class Solution_0:
     def lengthOfLongestSubstring(self, s: str) -> int:
         n = len(s)
